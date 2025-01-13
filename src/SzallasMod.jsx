@@ -136,7 +136,7 @@ export const SzallasMod = () => {
               </label>
               <div className="col-sm-9">
                 <input
-                  type="text"
+                  type="number"
                   name="minimum_nights"
                   className="form-control"
                   defaultValue={data.minimum_nights.split(' ')[0]}
