@@ -139,7 +139,7 @@ export const SzallasMod = () => {
                   type="text"
                   name="minimum_nights"
                   className="form-control"
-                  defaultValue={data.minimum_nights}
+                  defaultValue={data.minimum_nights.split(' ')[0]}
                   onChange={handleInputChange}
                 />
               </div>
